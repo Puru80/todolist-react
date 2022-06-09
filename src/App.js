@@ -2,7 +2,6 @@ import './App.css';
 import Header from './MyComponents/Header';
 import {Footer} from "./MyComponents/Footer";
 import {Todos} from "./MyComponents/Todos";
-import TodoItem from "./MyComponents/Todo";
 
 function App() {
   let todos = [
@@ -21,7 +20,7 @@ function App() {
       title: "Go to the office",
       desc: "Get job3 done"
     }
-  ]
+  ];
   
   return (
     <>
